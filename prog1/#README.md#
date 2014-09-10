@@ -1,0 +1,6 @@
+##Project 1
+
+1. Write a non-recursive routine to compute the factorial of `n` according to Equation (2.3). Calculate the running time predicted by the detailed model given in Section (\#secmodeldetailed) and the simplified model given in Section (\#secmodelsimplified).
+
+The book outlines the detailed model for the computer, the basic Axioms of which can be found [here](http://brpreiss.com/books/opus4/html/page36.html). Calculating the running time for the detailed model involves translating each basic operation (addition, subtraction, comparision, assignment) into its corresponding variable. Once we have fully translated each statement in the program, we simply add and simplify terms.
+
