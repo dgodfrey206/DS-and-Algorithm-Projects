@@ -5,7 +5,7 @@
 The book outlines the detailed computer model, the basic Axioms of which can be found [here](http://brpreiss.com/books/opus4/html/page36.html). To calculate the total running time of the program, we simply translate each statement in the program to its corresponding constant. Taking from our non-recursive-factorial.cpp...
 
 ```c++
-#include <cstdint>
+,#include <cstdint>
 
 uintmax_t fact(uintmax_t n)
 {
