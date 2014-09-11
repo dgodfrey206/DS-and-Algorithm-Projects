@@ -19,32 +19,32 @@
 
  ![](../images/30bfae2f5b6dec7fd2c301ea5acefb35.png)
 
-The simplified model is more straighforward. We will calculate the running time based on the clock period, `T`, and the proportionality constant, `k` with these assumptions made by the author:
+ The simplified model is more straighforward. We will calculate the running time based on the clock period, `T`, and the proportionality constant, `k` with these assumptions made by the author:
 
- - All timing parameters are expressed in units of clock cycles. In effect, `T=1`.
- - The proportionality constant, k, for all timing parameters is assumed to be the same: `k=1`.
+  - All timing parameters are expressed in units of clock cycles. In effect, `T=1`.
+  - The proportionality constant, k, for all timing parameters is assumed to be the same: `k=1`.
 
-![](../images/687474703a2f2f692e6779617a6f2e636f6d2f31396563653935303630343933626336363266393465643232663538323539372e706e67.png)
+ ![](../images/687474703a2f2f692e6779617a6f2e636f6d2f31396563653935303630343933626336363266393465643232663538323539372e706e67.png)
 
-2) Write a non-recursive routine to compute `x^n` according to Equation (\#eqnmodelpow). Calculate the running time predicted by the detailed model given in Section (\#secmodeldetailed) and the simplified model given in Section (\#secmodelsimplified).
+2. Write a non-recursive routine to compute `x^n` according to Equation (\#eqnmodelpow). Calculate the running time predicted by the detailed model given in Section (\#secmodeldetailed) and the simplified model given in Section (\#secmodelsimplified).
 
-Given the code
+ Given the code
 
-```c++
-uintmax_t pow(uintmax_t base, uintmax_t exp)
-{
-        uintmax_t val = 1;
+ ```c++
+ uintmax_t pow(uintmax_t base, uintmax_t exp)
+ {
+         uintmax_t val = 1;
 
-        while (--exp)
-                val *= base;
-        return val;
-}
-```
+         while (--exp)
+                 val *= base;
+         return val;
+ }
+ ```
 
-Detailed Model:
+ Detailed Model:
 
-![](../images/5a0eed40e8d6891235c258321339e57d.png)
+ ![](../images/5a0eed40e8d6891235c258321339e57d.png)
 
-Simplified Model:
+ Simplified Model:
 
-![](../images/04b3ebdbbba96ffaa17ec948bbb73dec.png)
+ ![](../images/04b3ebdbbba96ffaa17ec948bbb73dec.png)
