@@ -27,3 +27,21 @@ The simplified model is more straighforward. We will calculate the running time 
 ![](../images/687474703a2f2f692e6779617a6f2e636f6d2f31396563653935303630343933626336363266393465643232663538323539372e706e67.png)
 
 2. Write a non-recursive routine to compute `x^n` according to Equation (\#eqnmodelpow). Calculate the running time predicted by the detailed model given in Section (\#secmodeldetailed) and the simplified model given in Section (\#secmodelsimplified).
+
+Given the code
+
+```c++
+uintmax_t pow(uintmax_t base, uintmax_t exp)
+{
+        uintmax_t val = 1;
+
+        while (--exp)
+                val *= base;
+        return val;
+}
+```
+
+Detailed Model:
+
+![](687474703a2f2f692e6779617a6f2e636f6d2f666137646364613030356233313338373862303539
+32623537336632336562392e706e67.png)
