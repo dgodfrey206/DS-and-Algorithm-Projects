@@ -1,6 +1,6 @@
 ##Project 1
 
-1. Write a non-recursive routine to compute the factorial of n according to Equation (2.3). Calculate the running time predicted by the detailed model given in Section (\#secmodeldetailed) and the simplified model given in Section (\#secmodelsimplified).
+1) Write a non-recursive routine to compute the factorial of n according to Equation (2.3). Calculate the running time predicted by the detailed model given in Section (\#secmodeldetailed) and the simplified model given in Section (\#secmodelsimplified).
 
  The book outlines the detailed computer model, the basic Axioms of which can be found [here](http://brpreiss.com/books/opus4/html/page36.html). To calculate the total running time of the program, we simply translate each statement in the program to its corresponding constant. Taking from our non-recursive-factorial.cpp...
 
@@ -26,7 +26,7 @@
 
  ![](../images/687474703a2f2f692e6779617a6f2e636f6d2f31396563653935303630343933626336363266393465643232663538323539372e706e67.png)
 
-2. Write a non-recursive routine to compute `x^n` according to Equation (\#eqnmodelpow). Calculate the running time predicted by the detailed model given in Section (\#secmodeldetailed) and the simplified model given in Section (\#secmodelsimplified).
+2) Write a non-recursive routine to compute `x^n` according to Equation (\#eqnmodelpow). Calculate the running time predicted by the detailed model given in Section (\#secmodeldetailed) and the simplified model given in Section (\#secmodelsimplified).
 
  Given the code
 
