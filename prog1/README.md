@@ -17,4 +17,4 @@ uintmax_t fact(uintmax_t n)
 }
 ```
 
-[](http://i.gyazo.com/fa7dcda005b313878b0592b573f23eb9.png)
+![](http://i.gyazo.com/fa7dcda005b313878b0592b573f23eb9.png)
