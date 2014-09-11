@@ -17,7 +17,7 @@ uintmax_t fact(uintmax_t n)
 }
 ```
 
-![](../images/687474703a2f2f692e6779617a6f2e636f6d2f66613764636461303035623331333837386230353932623537336632336562392e706e67.png)
+![](../images/30bfae2f5b6dec7fd2c301ea5acefb35.png)
 
 The simplified model is more straighforward. We will calculate the running time based on the clock period, `T`, and the proportionality constant, `k` with these assumptions made by the author:
 
