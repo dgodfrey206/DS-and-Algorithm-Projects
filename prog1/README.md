@@ -18,3 +18,10 @@ uintmax_t fact(uintmax_t n)
 ```
 
 ![](http://i.gyazo.com/fa7dcda005b313878b0592b573f23eb9.png)
+
+The simplified model is more straighforward. We will calculate the running time based on the clock period, `T`, and the proportionality constant, `k` with these assumptions made by the author:
+
+ - All timing parameters are expressed in units of clock cycles. In effect, `T=1`.
+ - The proportionality constant, k, for all timing parameters is assumed to be the same: `k=1`.
+
+![](http://i.gyazo.com/19ece95060493bc662f94ed22f582597.png)
