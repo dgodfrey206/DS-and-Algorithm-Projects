@@ -44,3 +44,7 @@ uintmax_t pow(uintmax_t base, uintmax_t exp)
 Detailed Model:
 
 ![](../images/5a0eed40e8d6891235c258321339e57d.png)
+
+Simplified Model:
+
+![](../images/04b3ebdbbba96ffaa17ec948bbb73dec.png)
